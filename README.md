@@ -1,3 +1,31 @@
+### 실행 순서
+
+1. data_load.py
+    - original data를 data/ 안에 넣어서 실행
+    - 일단 데이터 크니까 빼둘게요
+2. crawl.py
+    - 시간 오래걸림.. 한.. 삼십분에서 한시간?
+3. sort_distance.py
+    - 금방끝납니다
+4. get_time.py 
+    - 최종결과 csv파일이 result/ 안에 저장됩니다
+
+1, 2번은 데이터만 만들어 뒀으면 안해도 됩니다
+입력값이 들어가는건 3, 4번
+3, 4번은 금방끝나요
+
+$python data_load.py
+$python crawl.py
+$python sort_distance.py
+$python get_time.py 
+
+각 파일 확인하고 경로 수정해주셔야됩니다
+경로나 파일 이름같은 전달할 인수들 한번에 결정할 수 있게 만들어 볼게요
+
+test/ 디렉토리에 있는건 일단 정리한다고 넣어둔거고 실행하려면 밖으로 빼줘야 할걸여
+
+--- 
+
 ## 목적
 
 아침이나 밤 등 원하는 시간대에 근처의 열려있는 카페를 찾기 위함
